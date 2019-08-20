@@ -6,12 +6,6 @@ The variables supported by this code are:
 
 | id | description
 | :---: | --- |
-| idema | Indicativo climatógico de la estación meteorológia automática |
-| lon | Longitud de la estación meteorológica (grados) |
-| lat | Latitud de la estación meteorológica (grados) |
-| alt | Altitud de la estación en metros |
-| ubi | Ubicación de la estación. Nombre de la estación |
-| fint | Fecha hora final del período de observación, se trata de datos del periodo de la hora anterior a la indicada por este campo (hora UTC) |
 | prec | Precipitación acumulada, medida por el pluviómetro, durante los 60 minutos anteriores a la hora indicada por el período de observación 'fint' (mm, equivalente a l/m2) |
 | pacutp | Precipitación acumulada, medida por el disdrómetro, durante los 60 minutos anteriores a la hora indicada por el período de observación 'fint' (mm, equivalente a l/m2) |
 | pliqtp | Precipitación líquida acumulada durante los 60 minutos anteriores a la hora indicada por el período de observación 'fint' (mm, equivalente a l/m2) |
