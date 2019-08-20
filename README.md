@@ -5,7 +5,7 @@ Code that generates a map of couplings of the values obtained by the meteorologi
 The variables supported by this code are:
 
 | id | description
-| --- | --- |
+| :---: | --- |
 | idema | Indicativo climatógico de la estación meteorológia automática |
 | lon | Longitud de la estación meteorológica (grados) |
 | lat | Latitud de la estación meteorológica (grados) |
