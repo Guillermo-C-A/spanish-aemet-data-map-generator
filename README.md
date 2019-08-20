@@ -48,7 +48,7 @@ The variables supported by this code are:
 
 SOME EXAMPLES
 
-![Alt text](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-19T16:00:00.png 'SAMPLE RESULT')
+![Alt text](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-19T16:00:00.png?style=centerme 'SAMPLE RESULT')
 
 | Povince | Temperature ºC |
 | :---: | :---: |
@@ -105,7 +105,7 @@ SOME EXAMPLES
 | MELILLA | 33.4 |
 | CEUTA | 32.9 |
 
-![Alt text](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-20T13:00:00.png 'SAMPLE RESULT 2')
+![Alt text](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-20T13:00:00.png?style=centerme 'SAMPLE RESULT 2')
 
 | Povince | Temperature ºC |
 | :---: | :---: |
