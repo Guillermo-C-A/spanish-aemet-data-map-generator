@@ -42,7 +42,7 @@ The variables supported by this code are:
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-19T16:00:00.png?style=centerme 'SAMPLE RESULT)  |  ![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-20T13:00:00.png?style=centerme 'SAMPLE RESULT 2')
+![]('https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-19T16:00:00.png')  |  ![]('https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-20T13:00:00.png')
 
 SOME EXAMPLES
 
