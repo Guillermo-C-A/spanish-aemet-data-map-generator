@@ -40,7 +40,7 @@ The variables supported by this code are:
 | rviento | Recorrido del viento durante los 60 minutos anteriores a la fecha indicada por 'fint' (Hm) |
 | nieve | Espesor de la capa de nieve medid en los 10 minutos anteriores a la a la fecha indicada por 'fint' (cm) |
 
-Solarized dark             |  Solarized Ocean
+Example  1           |  Example2
 :-------------------------:|:-------------------------:
 ![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-19T16:00:00.png)  |  ![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-20T13:00:00.png)
 
