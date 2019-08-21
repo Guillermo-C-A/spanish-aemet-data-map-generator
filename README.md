@@ -64,6 +64,6 @@ CEUTA | 32.9 | CEUTA | 29.9 |
 
 Suppose that we want to take out the maps of the last 24 meteorological registers of the average speed of the wind in the different provinces of Spain. For it, we will execute the following line of code 
 
-####Average rainfall
+#### Average rainfall
 
 `Aemet().plot_map('vv', 'Average speed of the wind')`
