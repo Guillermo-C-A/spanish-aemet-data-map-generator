@@ -81,3 +81,13 @@ In this way we will obtain a DataFrame composed of 5543 rows and 46 columns:
 Being the columns of this DataFrame: 
 
 ![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/merge_data_columns.png)
+
+#### Get more data from Aemet formatted in DataFrame 
+
+To obtain more Aemet Api databases and formatted in a DataFrame you will have to execute the following code: 
+
+`Aemet().aemet_api_call(url)`
+
+Being the url one of the different urls available in the aemet api:
+
+https://opendata.aemet.es/dist/index.html#/
