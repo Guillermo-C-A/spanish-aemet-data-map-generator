@@ -43,11 +43,6 @@ The variables supported by this code are:
 Example  1           |  Example2
 :-------------------------:|:-------------------------:
 ![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-19T16:00:00.png)  |  ![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-20T13:00:00.png)
-
-SOME EXAMPLES
-
-![Alt text](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-19T16:00:00.png?style=centerme 'SAMPLE RESULT')
-
 | Povince | Temperature ºC |
 | :---: | :---: |
 | ARABA/ALAVA | 19.1 |
@@ -61,9 +56,7 @@ SOME EXAMPLES
 | ZARAGOZA | 24.12 |
 | MELILLA | 33.4 |
 | CEUTA | 32.9 |
-
-![Alt text](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-20T13:00:00.png?style=centerme 'SAMPLE RESULT 2')
-
+|
 | Povince | Temperature ºC |
 | :---: | :---: |
 | ARABA/ALAVA | 20.2 |
@@ -77,5 +70,3 @@ SOME EXAMPLES
 | ZARAGOZA | 21.94 |
 | MELILLA | 31.6 |
 | CEUTA | 29.9 |
-
-
