@@ -76,3 +76,8 @@ In addition to being able to create maps, we will be able to obtain the raw data
 
 In this way we will obtain a DataFrame composed of 5543 rows and 46 columns:
 
+![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/merge_data_example.png)
+
+Being the columns of this DataFrame: 
+
+![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/merge_data_columns.png)
