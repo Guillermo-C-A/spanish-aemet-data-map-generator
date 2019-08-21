@@ -66,6 +66,4 @@ Suppose that we want to take out the maps of the last 24 meteorological register
 
 ####Average rainfall
 
-`Aemet().plot_map('vv', 'Average speed of the wind')
-
-`
+`Aemet().plot_map('vv', 'Average speed of the wind')`
