@@ -67,3 +67,12 @@ Suppose that we want to take out the maps of the last 24 meteorological register
 #### Average rainfall
 
 `Aemet().plot_map('vv', 'Average speed of the wind')`
+
+#### Obtain the raw database
+
+In addition to being able to create maps, we will be able to obtain the raw database. To do this, we will execute the following code: 
+
+`Aemet().merge_data()`
+
+In this way we will obtain a DataFrame composed of 5543 rows and 46 columns:
+
