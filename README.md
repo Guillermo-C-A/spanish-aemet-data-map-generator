@@ -59,3 +59,13 @@ ZAMORA | 25.5 | ZAMORA | 24.03333333333333 |
 ZARAGOZA | 24.12 | ZARAGOZA | 21.94 |
 MELILLA | 33.4 | MELILLA | 31.6 |
 CEUTA | 32.9 | CEUTA | 29.9 |
+
+## HOW TO USE THE CODE
+
+Suppose that we want to take out the maps of the last 24 meteorological registers of the average speed of the wind in the different provinces of Spain. For it, we will execute the following line of code 
+
+####Average rainfall
+
+`Aemet().plot_map('vv', 'Average speed of the wind')
+
+`
