@@ -43,30 +43,17 @@ The variables supported by this code are:
 Example  1           |  Example2
 :-------------------------:|:-------------------------:
 ![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-19T16:00:00.png)  |  ![](https://github.com/Guillermo-C-A/spanish-aemet-data-map-generator/blob/master/Some%20examples/ta_temporal_map2019-08-20T13:00:00.png)
-| Povince | Temperature ºC |
-| :---: | :---: |
-| ARABA/ALAVA | 19.1 |
-| ALBACETE | 34.35 |
-| ALICANTE | 29.53333333333333 |
-| ALMERIA | 29.44 |
-| AVILA | 24.933333333333334 |
-| ... | ... |
-| BIZKAIA | 18.825 |
-| ZAMORA | 25.5 |
-| ZARAGOZA | 24.12 |
-| MELILLA | 33.4 |
-| CEUTA | 32.9 |
-|
-| Povince | Temperature ºC |
-| :---: | :---: |
-| ARABA/ALAVA | 20.2 |
-| ALBACETE | 30.525 |
-| ALICANTE | 31.1 |
-| ALMERIA | 28.920000000000005 |
-| AVILA | 25.96666666666667 |
-| ... | ... |
-| BIZKAIA | 20.85 |
-| ZAMORA | 24.03333333333333 |
-| ZARAGOZA | 21.94 |
-| MELILLA | 31.6 |
-| CEUTA | 29.9 |
+
+Provinces example 1 | Temps. example 1 | Provinces example 2 | Temps. example 2
+:---:|:---:|:---:|:---:|
+ARABA/ALAVA | 19.1 | ARABA/ALAVA | 20.2 
+ALBACETE | 34.35 | ALBACETE | 30.525 |
+ALICANTE | 29.53333333333333 | ALICANTE | 31.1 |
+ALMERIA | 29.44 | ALMERIA | 28.920000000000005 |
+AVILA | 24.933333333333334 | AVILA | 25.96666666666667 |
+... | ... | ... | ... |
+BIZKAIA | 18.825 | BIZKAIA | 20.85 |
+ZAMORA | 25.5 | ZAMORA | 24.03333333333333 |
+ZARAGOZA | 24.12 | ZARAGOZA | 21.94 |
+MELILLA | 33.4 | MELILLA | 31.6 |
+CEUTA | 32.9 | CEUTA | 29.9 |
