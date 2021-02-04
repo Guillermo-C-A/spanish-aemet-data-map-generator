@@ -1,1 +1,1 @@
-CREATE AN AEMET KEY TO ACCES THE API AND DATA. THEN ERRASE THIS EXPLANATION AND PASTE THE KEY HERE -> https://opendata.aemet.es/centrodedescargas/altaUsuario
+CREATE AN AEMET KEY TO ACCES THE API AND DATA -> https://opendata.aemet.es/centrodedescargas/altaUsuario AND THEN ERRASE THIS EXPLANATION AND PASTE THE KEY IN THIS FILE 
