@@ -1,6 +1,8 @@
+# **READ aemet_api.txt**
+
 # spanish-aemet-data-map-generator
 
-Code that generates a map of couplings of the values obtained by the meteorological stations in the different Spanish provinces of AEMET (http://www.aemet.es/es/portada) 
+Code that generates a heatmap of the values obtained by the meteorological stations in the different Spanish provinces of AEMET (http://www.aemet.es/es/portada) 
 
 The variables supported by this code are:
 
