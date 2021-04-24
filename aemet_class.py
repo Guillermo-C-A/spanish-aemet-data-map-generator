@@ -1,4 +1,4 @@
-from http.client import HTTPSConnection
+import requests
 from requests import get
 from json import loads
 import matplotlib.pyplot as plt
@@ -20,26 +20,22 @@ class Aemet():
     
     def aemet_api_call(self, url):
         
-        conn = HTTPSConnection("opendata.aemet.es")
-            
+        querystring = {"api_key":self.key}
+
         headers = {
             'cache-control': "no-cache"
             }
-            
-        conn.request("GET",
-                     url + "/?api_key=" + self.key,
-                     headers=headers)
-            
-        res = conn.getresponse()
-        data = res.read()
-        data = loads(data.decode("utf-8"))['datos']
+
+        response = requests.request("GET", url, headers=headers, params=querystring)
+
+        data = response.json()['datos']
  
         return DataFrame.from_dict(get(url=data).json())
     
     def merge_data(self):
         
-        aemet_data = self.aemet_api_call('/opendata/api/observacion/convencional/todas')
-        aemet_stations = self.aemet_api_call('/opendata/api/valores/climatologicos/inventarioestaciones/todasestaciones')
+        aemet_data = self.aemet_api_call('https://opendata.aemet.es/opendata/api/observacion/convencional/todas')
+        aemet_stations = self.aemet_api_call('https://opendata.aemet.es/opendata/api/valores/climatologicos/inventarioestaciones/todasestaciones')
         
         return aemet_data.merge(aemet_stations, left_on='idema', right_on='indicativo', how='inner')
     
@@ -47,6 +43,7 @@ class Aemet():
         
         final_data = self.merge_data()[['fint', 'provincia', variable]]
         final_data = final_data.groupby(['fint', 'provincia']).mean().reset_index()
+        print(final_data)
         
         map_aemet = geopandas.read_file('provincias.shp')[['NOM_PROV', 'geometry']]
         
@@ -60,7 +57,6 @@ class Aemet():
             plt.title(time)            
         
             plt.savefig(variable + '_' + 'temporal_map' + time + '.png')
-            final_data[['provincia', variable]].to_csv(variable + '_' + 'temporal_map' + time +'.txt', sep=';')            
-
+            final_data[final_data['fint'] == time].to_csv(variable + '_' + 'temporal_map' + time +'.txt', sep=';')
 y = Aemet()
 y.plot_map('ta', 'TEMPERATURAS EN ESPAÑA')
